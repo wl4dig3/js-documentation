@@ -1,0 +1,69 @@
+    
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.contenedor {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar {
+    /* color:brown; */
+    width: 45%;
+    padding: 10px 0 10px 0;
+    border-right: 2px solid lawngreen;
+    height: 575px;
+    
+}
+    
+
+/* estilos del scroll vertical  */
+
+.navbar .ul-scroll {
+    overflow-y: scroll;
+    scroll-snap-type: mandatory;
+    background: #ff9d00;
+    scrollbar-width: 12px;
+    padding-top: 20px;
+    line-height:2.5rem;
+    list-style: none;
+    height: 500px;
+    padding-left: 0;
+    
+}   
+    
+.navbar .ul-scroll li {
+    scroll-snap-align: start;
+    font-size: 1.2em;
+    border-bottom: 2px solid gray;
+    
+    padding-left: 25px;
+
+
+}
+    
+    
+
+/* estilos seccion main  */
+.main {
+    margin: 15px 25px;
+}
+.main h1 {
+    margin: 40px 0 0 0;
+    font-size: 1.5em;
+    padding: 0 0 0 20px
+}
+.main p {
+    line-height: 1.6;
+    padding: 0 20px;
+}
+.main ul {
+    line-height: 1.6;
+}
+ .main ul li{
+     margin: 0 20px 0 40px;
+ }   
+    
