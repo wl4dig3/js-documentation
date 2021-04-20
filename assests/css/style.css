@@ -16,10 +16,14 @@
         padding: 10px 0 10px 0;
         border-right: 2px solid lawngreen;
         height: 575px;
+        /* position: fixed; */
     }
 
     .nav-title {
         text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:26.8px;
+        font-weight: 400;
     }
 
     /* estilos del scroll vertical  */
@@ -39,9 +43,12 @@
 
     .navbar .ul-scroll li {
         scroll-snap-align: start;
-        font-size: 1.2em;
+        font-size: 16px;
         border-bottom: 2px solid gray;
-        padding-left: 25px;
+        padding: 10px 0 10px 25px;
+        line-height:24px;
+        color: #4d4e53;
+        font-family: Arial;
     }
 
     .navbar .ul-scroll a {
@@ -61,10 +68,11 @@
     }
 
     .main p {
-        line-height: 1.6;
+        line-height: 23.033px;
         padding: 0 20px;
         font-size: 1em;
         color: #4d4e53;
+        font-family: Arial;
     }
 
     .main ul {
@@ -74,4 +82,8 @@
     .main ul li {
         margin: 0 20px 0 40px;
         color: #4d4e53;
+        font-family: Arial;
+        line-height: 23.033px;
+        font-size:15.36px;
+        margin-bottom: 10px;
     }
